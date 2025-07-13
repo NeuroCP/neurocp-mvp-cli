@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neurocp_cli_demo"
+version = "0.1.0"
+description = "A command-line demonstration of NeuroCP AI features, integrating OpenAI for question answering."
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+  {name = "[neurocp]", email = "[team@neurocp.ai]"},
+]
+dependencies = [
+  "openai>=1.0.0",
+]
